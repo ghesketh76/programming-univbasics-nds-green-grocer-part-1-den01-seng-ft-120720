@@ -1,7 +1,8 @@
 require "pry"
 
 def find_item_by_name_in_collection(name, collection)
-  binding.pry
+  find_item_by_name_in_collection.each do |item|
+    if item[:item] == name
 
 end
 
