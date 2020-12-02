@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   index=0
   
   collection.each do |item|
-    return 
+    return item if 
 
 
 end
